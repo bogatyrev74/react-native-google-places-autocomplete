@@ -21,46 +21,47 @@ import {
 const WINDOW = Dimensions.get('window');
 
 const defaultStyles = {
-											container: {
-												paddingTop: 20,
-											paddingRight: 13,
-											paddingBottom: 13,
-											paddingLeft: 13,
-												flexDirection: "column", 
-												justifyContent: "center",
-											},
-											textInputContainer: {
-												height: 44,
-												flexDirection: 'row',
+		container: {
+			paddingTop: 20,
+		paddingRight: 13,
+		paddingBottom: 13,
+		paddingLeft: 13,
+			flexDirection: "column", 
+			justifyContent: "center",
+		},
+		textInputContainer: {
+			height: 44,
+			flexDirection: 'row',
 
-										  },
-										  textInput: {
-												height:45,
-												flex:1,
-												paddingLeft:13,
-												paddingRight:13,
-												backgroundColor:'#F5F5FA',
-										  },
-										  listViewContainer: {
-											flexDirection: 'row',
-											},
-										  row: {
-											paddingTop: 10,
-											paddingRight: 13,
-											paddingBottom: 25,
-											paddingLeft: 13,
-											height: 44,
-										  },
-										  separator: {
-											height: 1,
-											backgroundColor: '#c8c7cc',
-										  },
-										  description: {},
-										  loader: {
+	  },
+	  textInput: {
+			height:45,
+			flex:1,
+			paddingLeft:13,
+			paddingRight:13,
+			backgroundColor:'#F5F5FA',
+	  },
+	  listViewContainer: {
+		flexDirection: 'row',
+		},
+	  row: {
+		paddingTop: 10,
+		paddingRight: 13,
+		paddingBottom: 25,
+		paddingLeft: 13,
+		height: 44,
+	  },
+	  separator: {
+		height: 1,
+		backgroundColor: '#c8c7cc',
+	  },
+	  description: {},
+	  loader: {
 
-											justifyContent: 'flex-end',
-											height: 20,
-										  },
+		justifyContent: 'flex-end',
+		height: 20,
+	  },
+	  
 };
 
 export default class GooglePlacesAutocomplete extends Component {
