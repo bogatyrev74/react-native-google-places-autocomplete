@@ -684,7 +684,7 @@ export default class GooglePlacesAutocomplete extends Component {
 
   _renderRow = (rowData = {}, sectionID, rowID) => {
     return (
-	<View style={{ flex: 1 }}>
+	<View>
 
 
         <TouchableHighlight
