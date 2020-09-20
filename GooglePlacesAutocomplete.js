@@ -685,16 +685,7 @@ export default class GooglePlacesAutocomplete extends Component {
   _renderRow = (rowData = {}, sectionID, rowID) => {
     return (
 	<View style={{ flex: 1 }}>
-	    /*
-      <ScrollView
-        style={{ flex: 1 }}
-        scrollEnabled={this.props.isRowScrollable}
-        keyboardShouldPersistTaps={this.props.keyboardShouldPersistTaps}
-        horizontal={true}
-        showsHorizontalScrollIndicator={false}
-        showsVerticalScrollIndicator={false}
-      >
-      */
+
 
         <TouchableHighlight
           style={{ width: WINDOW.width }}
@@ -712,7 +703,7 @@ export default class GooglePlacesAutocomplete extends Component {
             {this._renderRowData(rowData)}
           </View>
         </TouchableHighlight>
-      /* </ScrollView> */
+ 
 		   </View>
     );
   };
