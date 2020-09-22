@@ -271,6 +271,8 @@ export default class GooglePlacesAutocomplete extends Component {
   };
 
   _onPress = (rowData) => {
+	  console.log('q');
+	  
     if (
       rowData.isPredefinedPlace !== true &&
       this.props.fetchDetails === true
